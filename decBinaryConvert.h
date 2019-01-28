@@ -1,0 +1,16 @@
+void caseTwoPrompt();
+int* getBinaryArray ();
+int getBinaryDecValue (int* decPtr);
+int* getDecHexArray (int startValue);  
+char* convertIntChar(int* ptr);
+void printCaseTwoResults (char* charPtr, int decValue);
+int caseTenPrompt();
+int* getDecBinaryArray (int startValue);
+void printCaseTenResults (int* binaryPtr, char* charPtr); 
+void caseSixteenPrompt();
+char* getHexArray ();
+int* convertCharInt (char* ptr);
+int getHexDecValue(int* intPtr);  
+void printCaseSixteenResults(int decValue, int* binaryPtr);  
+void printIntArray (int* ptr, int size);
+void printCharArray (char* ptr, int size);
